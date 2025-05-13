@@ -1,0 +1,423 @@
+/*Picture-Box1 and 6 */
+.nab{
+  display: flex;
+  background-color: #d7d9dc;
+  height: 40vh;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+.picture-box6{
+  background-color: #c8cdd6;
+  height: 45vh;
+}
+.img1 img{
+  position: absolute;
+  width: 1044px;
+  z-index: 2;
+  height: 360px;
+  margin-left:10px;
+  margin-top:10px;
+}
+.pic {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 40vh;
+  border-radius: 0px 10px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  z-index: 3;
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+.picture-box .pic1 {
+  background-image: url('/IMAGES/pic1.png');
+}
+
+.picture-box .pic2 {
+  background-image: url('/IMAGES/pic5.png');
+}
+
+.picture-box .pic3 {
+  background-image: url('/IMAGES/pic2.png');
+}
+
+.picture-box .pic4 {
+  background-image: url('/IMAGES/pic4.png');
+}
+/*picture-box 6 pictures*/
+.picture-box0 .pic { 
+  border: 6px solid #a7adb6;
+  
+}
+.picture-box0 .pic1 {
+  background-image: url('/IMAGES/nobg__1_-removebg-preview.png');
+  z-index: 3;
+  transition: all 0.001s step-end;
+}
+.picture-box0 .pic1:hover
+{
+  background-image: url(/IMAGES/nobg\ \(1\).jpeg);
+  z-index: 2;
+}
+.picture-box0 .pic2 {
+  background-image: url('/IMAGES/nobg__2_-removebg-preview.png');
+   transition: all 0.001s step-end;
+}
+.picture-box0 .pic2:hover
+{
+  background-image: url(/IMAGES/nobg\ \(2\).jpeg);
+  z-index: 2;
+}
+.picture-box0 .pic3 {
+  background-image: url('/IMAGES/nobg__3_-removebg-preview.png');
+   transition: all 0.001s step-end;
+}
+.picture-box0 .pic3:hover
+{
+  background-image: url(/IMAGES/nobg\ \(3\).jpeg);
+  z-index: 2;
+}
+
+.picture-box0 .pic4 {
+  background-image: url('/IMAGES/nobg_4_-removebg-preview.png');
+   transition: all 0.001s step-end;
+   z-index: 3;
+}
+.picture-box0 .pic4:hover
+{
+  background-image: url(/IMAGES/nobg\(4\).jpeg);
+  z-index: 2;
+}
+
+
+.pic  h1 {
+  position: relative;
+  bottom: -360px;
+  font-size: x-large;
+  font-display: flex;
+  font-weight: 700;
+  text-align: center;
+  font-style: inherit;
+  color: rgb(44, 18, 18);
+  background-color: #fdddb4;
+  height: 25px;
+    width: 300px;
+  font-family:cambria;
+}
+.pic1 h1 {
+  position: relative;
+  bottom: -360px;
+  font-size: x-large;
+  left:6px;
+  font-weight: 700;
+  font-style: inherit;
+  text-align: center;
+  color: rgb(44, 18, 18);
+  background-color:  #fdddb4;
+  height: 25px;
+  width: 290px;
+  font-family:Cambria;
+}
+.pic:hover {
+  transform: scale(1.025);
+
+  transition: all 0.4s ease;
+  z-index: 3;
+}
+
+
+/*t-shirt-box text */
+.r1 .arriable p {
+  position: relative;
+  font-size: larger;
+  font-weight: 700;
+  letter-spacing: 10px;
+  word-spacing: 30px;
+  color: rgb(53, 52, 52);
+  z-index: 8;
+}
+.com.ops2 span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.32rem;
+  font-weight: 400;
+  color: #8196f5;
+  transition: all 0.1s step-end;
+  word-spacing: 4px;
+  letter-spacing: 0.4px;
+  text-decoration: underline;
+  left:4rem;
+  top:20px;
+}
+
+.rowt2{
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
+.r1.arriable2 h1 {
+  top: 194vh;
+  left: 30%;
+  position: absolute;
+  overflow: hidden;
+  font-size: larger;
+  font-weight: 700;
+  letter-spacing: 10px;
+  word-spacing: 30px;
+  color: rgb(53, 52, 52);
+}
+/*t-shirt-box product to sell*/
+.b {
+  display: flex;
+  background-color: #d7d9dc;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+   box-shadow: 10px 50px 70px rgba(0, 0, 0, 0.2);
+  }
+.box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  cursor: pointer;
+  border-bottom: hidden;
+   box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+}
+/*t-shirt-box 1*/
+.boxes .t-shirt1 {
+  background-image: url(/IMAGES/t-shirt1.jpg);
+}
+/*t-shirt-box 2*/
+.boxes .t-shirt2 {
+  background-image: url(/IMAGES/t-shirt2-2.jpg);
+}
+/*t-shirt-box 3*/
+.boxes .t-shirt3 {
+  background-image: url(/IMAGES/t-shirt3.png);
+}
+/*t-shirt-box 4*/
+.boxes .t-shirt4 {
+  background-image: url(/IMAGES/t-shirt4.jpg);
+}
+/*t-shirt-box 5*/
+.boxes .t-shirt5 {
+  background-image: url(/IMAGES/t-shirt5.png);
+}
+.boxes2 {
+    margin-top:50px ;
+}
+/*t-shirt-box 1*/
+.boxes2 .top1 {
+  background-image: url(/IMAGES/crop1.jpeg);
+}
+/*t-shirt-box 2*/
+.boxes2 .top2 {
+  background-image: url(/IMAGES/crop2.jpeg);
+}
+/*t-shirt-box 3*/
+.boxes2 .top3 {
+  background-image: url(/IMAGES/crop3.jpeg);
+}
+/*t-shirt-box 4*/
+.boxes2 .top4 {
+  background-image: url(/IMAGES/crop4.jpeg);
+}
+/*t-shirt-box 5*/
+.boxes2 .top5 {
+  background-image: url(/IMAGES/cop5.jpeg);
+}
+
+.box:hover {
+  transform: scale(1.015);
+  transition: all 0.3s ease;
+  z-index: 3;
+}
+
+/*2nd picture box*/
+.nac {
+  display: flex;
+  background-color: #d7d9dc;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+   z-index: 1;
+    box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.photo {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s ease;  
+  z-index: 2;
+}
+
+.nac h2{
+  position: relative;
+  bottom: -340px;
+  font-size: 30px;
+  font-display: flex;
+   text-align: center;
+  color: rgb(235, 235, 235);
+  font-family:cambria;
+  text-decoration: overline; 
+}
+.picture-box2 .pic1{
+  background-image: url(/IMAGES/men1.png);
+  background-size: cover;
+}
+
+.picture-box2 .pic2{
+  background-image: url(/IMAGES/men2.png);
+  background-size: cover;
+}
+.picture-box2 .pic3{
+  background-image: url(/IMAGES/men3.png);
+  background-size: cover;
+}
+.picture-box2 .pic4{
+  background-image: url(/IMAGES/men4.png);
+  background-size: cover;
+}
+.picture-box2 .pic5{
+  background-image: url(/IMAGES/men5.png);
+  background-size: cover;
+}
+
+/*3nd picture box*/
+.picture-box3 .pic6{
+  background-image: url(/IMAGES/men6.jpg);
+  background-size: cover;
+}
+.picture-box3 .pic7{
+  background-image: url(/IMAGES/men7.jpg);
+  background-size: cover;
+}
+.picture-box3 .pic8{
+  background-image: url(/IMAGES/men8.png);
+  background-size: cover;
+}
+.picture-box3 .pic9{
+  background-image: url(/IMAGES/men9.jpg);
+  background-size: cover;
+}
+.picture-box3 .pic10{
+  background-image: url(/IMAGES/men10.jpeg);
+  background-size: cover;
+} 
+
+/*4th picture box women*/
+.picture-box4 .pic1{
+  background-image: url(/IMAGES/women1.PNG);
+  background-size: cover;
+}
+.picture-box4 .pic2{
+  background-image: url(/IMAGES/women2.jpg);
+  background-size: cover;
+}
+.picture-box4 .pic3{
+  background-image: url(/IMAGES/women3.jpg);
+  background-size: cover;
+}
+.picture-box4 .pic4{
+  background-image: url(/IMAGES/women4.jpg);
+  background-size: cover;
+}
+.picture-box4 .pic5{
+  background-image: url(/IMAGES/women5.PNG);
+  background-size: cover;
+}
+
+/*women picture box -- 5th picture box*/
+.picture-box5 .pic6{
+  background-image: url(/IMAGES/women6.PNG);
+  background-size: cover;
+}
+.picture-box5 .pic7{
+  background-image: url(/IMAGES/women7.jpeg);
+  background-size: cover;
+}
+.picture-box5 .pic8{
+  background-image: url(/IMAGES/women8.jpeg);
+  background-size: cover;
+}
+.picture-box5 .pic9{
+  background-image: url(/IMAGES/women9.jpeg);
+  background-size: cover;
+}
+.picture-box5 .pic10{
+  background-image: url(/IMAGES/women10.jpeg);
+  background-size: cover;
+}
+
+/*6th picture box t-shirt*/
+.picture-box6 .pic1{
+  background-image: url(/IMAGES/bg\ \(2\).jpeg);
+  background-size: cover;
+}
+.picture-box6 .pic2{
+  background-image: url(/IMAGES/bg\ \(3\).jpeg);
+  background-size: cover;
+}
+.picture-box6 .pic3{
+  background-image: url(/IMAGES/bg\ \(4\).jpeg);
+  background-size: cover;
+}
+.picture-box6 .pic4{
+  background-image: url(/IMAGES/bg\ \(5\).jpeg);
+  background-size: cover;
+}
+.picture-box6 .pic5{
+  background-image: url(/IMAGES/bg\ \(1\).jpeg);
+  background-size: cover;
+}
+ 
+/*oversidez t- shity images*/
+.picture-box7 .pic6{
+  background-image: url(/IMAGES/bg\ \(6\).jpeg);
+  background-size: cover;
+}
+.picture-box7 .pic7{
+ background-image: url(/IMAGES/bg\ \(7\).jpeg);
+  background-size: cover;
+}
+.picture-box7 .pic8{
+  background-image: url(/IMAGES/bg\ \(11\).jpeg);
+  background-size: cover;
+}
+.picture-box7 .pic9{
+  background-image: url(/IMAGES/bg\ \(9\).jpeg);
+  background-size: cover;
+}
+.picture-box7 .pic10{
+  background-image: url(/IMAGES/bg\ \(10\).jpeg);
+  background-size: cover;
+}
+
+.photo:hover {
+  transform: scale(1.055);
+  transition: all 0.4s ease;
+   z-index: 3;
+    box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
