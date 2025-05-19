@@ -234,22 +234,51 @@ box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
 .boxes .t-shirt1 {
   background-image: url(/IMAGES/t-shirt1.jpg);
 }
+.boxes .t-shirt1:hover {
+  background-image: url(/IMAGES/t-shirt1-1.jpg);
+  z-index: 2;
+}
 /*t-shirt-box 2*/
 .boxes .t-shirt2 {
   background-image: url(/IMAGES/t-shirt2-2.jpg);
 }
+.boxes .t-shirt2:hover {
+  background-image: url(/IMAGES/t-shirt2-2.jpg);
+  z-index: 2;
+}
+.boxes .t-shirt2:hover {
+  background-image: url(/IMAGES/t-shirt2-1.jpg);
+  z-index: 2;
+}
+
+
 /*t-shirt-box 3*/
 .boxes .t-shirt3 {
   background-image: url(/IMAGES/t-shirt3.png);
 }
+.boxes .t-shirt3:hover {
+  background-image: url(/IMAGES/t-shirt3-1.png);
+  z-index: 2;
+}
+
 /*t-shirt-box 4*/
 .boxes .t-shirt4 {
   background-image: url(/IMAGES/t-shirt4.jpg);
 }
+.boxes .t-shirt4:hover {
+  background-image: url(/IMAGES/t-shirt4-1.png);
+  z-index: 2;
+}
+
 /*t-shirt-box 5*/
 .boxes .t-shirt5 {
   background-image: url(/IMAGES/t-shirt5.png);
 }
+.boxes .t-shirt5:hover {
+  background-image: url(/IMAGES/t-shirt5-1.png);
+  z-index: 2;
+}
+
 .boxes2 {
     margin-top:50px ;
 }

@@ -195,7 +195,7 @@ header {
   top: -2px;
   text-align: center;
   padding: 3px;
-  background-color: rgb(236, 228, 181);
+  background-color: rgb(252, 248, 225);
   width: 100%;
   margin: auto;
    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
@@ -217,7 +217,7 @@ header {
   bottom: -100%;
   left: 0;
   width: 100%;
-  background-color: #f8cccc;
+  background-color: #fddede;
   text-align: center;
   padding: 15px;
   transition: bottom 0.4s ease;
