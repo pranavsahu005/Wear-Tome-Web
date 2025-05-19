@@ -10,19 +10,44 @@
   justify-content: center;
   align-items: center;
   position: relative;
-
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
 }
 .picture-box6{
   background-color: #c8cdd6;
   height: 45vh;
 }
+
+.hd:hover
+{
+  transform: scale(0.99);
+  transition: all 0.3s ease;
+  z-index: 3;
+}
 .img1 img{
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  padding: 5px;
+  height: 685px;
+  margin-top:200px;
+  margin-bottom: 5px;
+  
+}
+.img1 img:hover{
+  transform: scale(1.019);
+  transition: all 0.4s ease;
+box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.1);
+  border-radius: 5px;
+}
+.img2 img{
   position: absolute;
   width: 1044px;
   z-index: 2;
   height: 360px;
   margin-left:10px;
   margin-top:10px;
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
 }
 .pic {
   position: relative;
@@ -34,9 +59,9 @@
   background-size: cover;
   background-position: center;
   margin: 10px;
+  cursor: pointer;
   z-index: 3;
   box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
-
 }
 .picture-box .pic1 {
   background-image: url('/IMAGES/pic1.png');
@@ -110,7 +135,7 @@
   color: rgb(44, 18, 18);
   background-color: #fdddb4;
   height: 25px;
-    width: 300px;
+  width: 300px;
   font-family:cambria;
 }
 .pic1 h1 {
@@ -129,7 +154,7 @@
 }
 .pic:hover {
   transform: scale(1.025);
-
+   filter: brightness(1);
   transition: all 0.4s ease;
   z-index: 3;
 }
@@ -139,11 +164,14 @@
 .r1 .arriable p {
   position: relative;
   font-size: larger;
+  text-align: center;
   font-weight: 700;
   letter-spacing: 10px;
-  word-spacing: 30px;
+  word-spacing: 25px;
   color: rgb(53, 52, 52);
   z-index: 8;
+  font-size: 1.5rem;
+  font-family: cambria;
 }
 .com.ops2 span {
   position: relative;
@@ -164,6 +192,8 @@
 .rowt2{
     margin-top: 50px;
     margin-bottom: -40px;
+   height: 20px;
+    background-color: #e3e8f0;
 }
 .r1.arriable2 h1 {
   top: 194vh;
@@ -195,8 +225,10 @@
   background-position: center;
   overflow: hidden;
   cursor: pointer;
+  margin: 2px;
+  border-radius: 5px;
   border-bottom: hidden;
-   box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
 }
 /*t-shirt-box 1*/
 .boxes .t-shirt1 {
@@ -246,19 +278,23 @@
   transform: scale(1.015);
   transition: all 0.3s ease;
   z-index: 3;
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+  filter: brightness(1);
 }
 
 /*2nd picture box*/
 .nac {
   display: flex;
-  background-color: #d7d9dc;
+  background-color: #ffffff;
   height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
    z-index: 1;
-    box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 .photo {
   position: relative;
@@ -270,6 +306,8 @@
   background-position: center;
   transition: all 0.4s ease;  
   z-index: 2;
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 1px;
 }
 
 .nac h2{
@@ -278,9 +316,10 @@
   font-size: 30px;
   font-display: flex;
    text-align: center;
-  color: rgb(235, 235, 235);
+  color: rgb(248, 243, 243);
   font-family:cambria;
   text-decoration: overline; 
+
 }
 .picture-box2 .pic1{
   background-image: url(/IMAGES/men1.png);
@@ -417,7 +456,9 @@
 .photo:hover {
   transform: scale(1.055);
   transition: all 0.4s ease;
-   z-index: 3;
-    box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+  filter: brightness(1);
+  background-color: #ffffff;
 }
 

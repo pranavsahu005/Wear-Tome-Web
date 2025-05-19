@@ -1,0 +1,230 @@
+/* Foooter */
+.footer {
+  position: relative;
+  margin-top: 50px;
+ 
+}
+
+.foot-panel1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.90rem;
+  font-weight: 700;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+
+.foot-panel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 360px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+ul p {
+  display: block;
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #dddddd;
+  font-weight: 800;
+   text-shadow: 1px 3px 2px rgba(22, 1, 1, 0.3);
+}
+
+ul li {
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #cccccc;
+  font-weight: 500;
+  line-height: 1.6rem;
+  cursor: pointer;
+   box-shadow: 10px 3px 10px rgba(19, 18, 18, 0.3);
+}
+
+ul li:hover {
+  color: #007185;
+  cursor: pointer;
+}
+
+.foot-panel3 {
+  background-color: #c2c2c2;
+  border-top: 0.5px;
+  border-top: 0.5px solid #cccccc;
+  color: white;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  background-image: url(../IMAGES/Mockups___3_-removebg-preview.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 12%;
+  z-index: 1;
+  filter: drop-shadow(2px 4px 0.75rem #797979);
+}
+.logo1:hover {
+  cursor: pointer;
+  transform: scale(1);
+  background-image: url(/IMAGES/wear\ tome\ \(1\).png);
+  transition: all 0.3s ease;
+  background-size: cover;
+}
+
+.foot-panel4 {
+    background-color: #131a22;
+    color: #ddd;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ddd;
+    line-height: 1.4;
+}
+
+.footer-links a span {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.footer-links a:hover {
+    color: #fff;
+} 
+.foot-panel5 {
+  background-color: #131a22;
+  color: #ddd;
+  padding: 30px 80px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 50px;
+  font-size: 0.85rem;
+  text-align: center;
+  
+}
+
+.footer-links {
+  display: grid;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  font-size: 14px;
+  position: relative;
+  top:-10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ddd;
+  line-height: 1.4;
+}
+
+.footer-links a span {
+  display: block;
+  color: #999;
+  font-size: 12px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.foot-panel6 {
+  background-color: #0f1111;
+  color: white;
+  height: 160px;
+  font-size: 0.85rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-links span:hover {
+  color: #007185;
+  cursor: pointer;
+}
+
+.pages {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  padding: 10px 100px 10px 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 1px 20px 10px 20px;
+}
+.copyright {
+  justify-content: center;
+}
+.copyright h1{
+  background-color: #131a22;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 30px;
+  background-color: #131a22;
+  color: #ddd;
+ 
+}
+.footer-links.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+  padding: 10px 100px 10px 100px;
+  margin: 1px 20px 10px 20px;
+ 
+}
+
+.footer-links.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.footer-links.social-icons a:hover {
+  transform: scale(1.2);
+  
+  cursor: pointer;
+}
